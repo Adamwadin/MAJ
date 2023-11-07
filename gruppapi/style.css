@@ -8,20 +8,26 @@ body {
   background-position: center;
   height: 100vh;
   width: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .main-container {
-  width: 300px;
+  width: 400px;
+  height: 150px;
   display: flex;
   flex-direction: column;
   gap: 10px;
   align-items: center;
+  justify-content: space-between;
+  place-self: center;
 }
 
 #textContainer {
   padding: 30px;
   border-radius: 10px;
   background-color: green;
-
+  text-align: center;
   min-width: 300px;
 }
 
@@ -31,7 +37,7 @@ body {
   border-radius: 5px;
   padding: 5px;
   width: 80px;
-  align-self: flex-end;
+  user-select: none;
 }
 
 #quoteButton:hover {
