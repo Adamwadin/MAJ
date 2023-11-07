@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.kanye-container {
+#kanye-container {
   background-image: url("/src/desktop-kanye.jpg");
   background-size: cover;
   background-position: center;
@@ -18,11 +18,11 @@ body {
 }
 
 #textContainer {
-  width: fit-content;
   padding: 30px;
   border-radius: 10px;
   background-color: green;
-  background-image: u;
+
+  min-width: 300px;
 }
 
 #quoteButton {
