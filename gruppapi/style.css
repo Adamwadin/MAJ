@@ -1,6 +1,8 @@
 body {
   margin: 0;
   background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12pt;
 }
 
 #kanye-container {
@@ -36,16 +38,18 @@ body {
 #quoteButton {
   justify-self: flex-end;
   cursor: pointer;
-  background-color: rgb(189, 189, 189);
+  background-color: rgb(255, 255, 255);
   border-radius: 5px;
   padding: 5px;
-  width: 80px;
+  width: 120px;
+  padding: 10px;
   margin: 20px;
   user-select: none;
+  font-size: 1rem;
 }
 
 #quoteButton:hover {
-  background-color: aliceblue;
+  background-color: rgb(217, 217, 217);
 }
 
 #footer {
@@ -66,6 +70,7 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
   .main-container {
+    margin-left: 10px;
     grid-row-start: 5;
     gap: 10px;
     justify-content: space-between;
