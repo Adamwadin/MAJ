@@ -1,4 +1,42 @@
 body {
+    margin: 0;
+    background-color: black;
+  }
+  
+  #kanye-container {
+      background-image: url("/src/kanyeMobile.jpg");
+      background-size: contain;
+      background-position: center;
+      height: 100vh;
+      width: auto;
+      background-repeat: no-repeat;
+  }
+  
+  .main-container {
+      display: flex;
+      flex-direction: column;
+  }
+  
+  #textContainer {
+      margin-top: 80%;
+      padding: 30px;
+      border-radius: 20px;
+      background-color: green;
+      min-width: 80%;
+    }
+    
+    #quoteButton {
+      cursor: pointer;
+      background-color: grey;
+      border-radius: 5px;
+      padding: 5px;
+      width: 80px;
+      margin: 20px;
+    }
+
+    @media screen and (min-width: 600) {
+
+body {
   margin: 0;
 }
 
@@ -51,4 +89,6 @@ body {
   justify-content: center;
   text-align: center;
   color: aliceblue;
+}
+
 }
