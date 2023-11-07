@@ -21,7 +21,6 @@ body {
 }
 
 #textContainer {
-  justi: flex-end;
   padding: 30px;
   border-radius: 20px;
   background-color: green;
