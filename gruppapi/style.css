@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.kanye-container {
+    background-image: url("/src/desktop-kanye.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+}
