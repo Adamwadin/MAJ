@@ -11,8 +11,6 @@ body {
   width: auto;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .main-container {
@@ -21,6 +19,7 @@ body {
 }
 
 #textContainer {
+  justi: flex-end;
   padding: 30px;
   border-radius: 20px;
   background-color: green;
