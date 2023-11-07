@@ -1,72 +1,28 @@
 body {
-    margin: 0;
-    background-color: black;
-  }
-  
-  #kanye-container {
-      background-image: url("/src/kanyeMobile.jpg");
-      background-size: cover;
-      background-position: center;
-      height: 100vh;
-      width: auto;
-      background-repeat: no-repeat;
-  }
-  
-  .main-container {
-      display: flex;
-      flex-direction: column;
-  }
-  
-  #textContainer {
-      margin-top: 80%;
-      padding: 30px;
-      border-radius: 20px;
-      background-color: green;
-      min-width: 80%;
-    }
-    
-    #quoteButton {
-      cursor: pointer;
-      background-color: grey;
-      border-radius: 5px;
-      padding: 5px;
-      width: 80px;
-      margin: 20px;
-    }
-
- @media screen and (min-width: 600px) {
-
-body {
   margin: 0;
+  background-color: black;
 }
 
 #kanye-container {
-  background-image: url("/src/desktop-kanye.jpg");
+  background-image: url("/src/kanyeMobile.jpg");
   background-size: cover;
   background-position: center;
   height: 100vh;
   width: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
+  background-repeat: no-repeat;
 }
+
 .main-container {
-  width: 400px;
-  height: 150px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  align-items: center;
-  justify-content: space-between;
-  place-self: center;
 }
 
 #textContainer {
+  margin-top: 80%;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 20px;
   background-color: green;
-  text-align: center;
-  min-width: 300px;
+  min-width: 80%;
 }
 
 #quoteButton {
@@ -75,20 +31,62 @@ body {
   border-radius: 5px;
   padding: 5px;
   width: 80px;
-  user-select: none;
+  margin: 20px;
 }
 
-#quoteButton:hover {
-  background-color: aliceblue;
-}
+@media screen and (min-width: 600px) {
+  body {
+    margin: 0;
+  }
 
-#footer {
-  margin-top: 800px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: aliceblue;
-}
+  #kanye-container {
+    background-image: url("/src/desktop-kanye.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+  .main-container {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    place-self: center;
+  }
 
+  #textContainer {
+    padding: 30px;
+    border-radius: 10px;
+    background-color: green;
+    text-align: center;
+    min-width: 300px;
+  }
+
+  #quoteButton {
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 5px;
+    width: 80px;
+    user-select: none;
+  }
+
+  #quoteButton:hover {
+    background-color: aliceblue;
+  }
+
+  #footer {
+    margin-top: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+  }
 }
