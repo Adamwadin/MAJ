@@ -37,3 +37,12 @@ body {
 #quoteButton:hover {
   background-color: aliceblue;
 }
+
+#footer {
+  margin-top: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+}
