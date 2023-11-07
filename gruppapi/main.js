@@ -7,6 +7,7 @@ fetch("https://api.kanye.rest")
     const kanyeQuote = data.quote;
 
     const quoteDiv = document.createElement("div");
+    quoteDiv.id = "p1";
     quoteDiv.textContent = kanyeQuote;
 
     kanyeQuoteDiv.appendChild(quoteDiv);
@@ -23,6 +24,7 @@ randomQuoteButton.addEventListener("click", () => {
       const kanyeQuote = data.quote;
 
       const quoteDiv = document.createElement("div");
+      quoteDiv.id = "p1";
       quoteDiv.textContent = kanyeQuote;
 
       kanyeQuoteDiv.appendChild(quoteDiv);
