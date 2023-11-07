@@ -5,7 +5,7 @@ body {
   
   #kanye-container {
       background-image: url("/src/kanyeMobile.jpg");
-      background-size: contain;
+      background-size: cover;
       background-position: center;
       height: 100vh;
       width: auto;
@@ -34,7 +34,7 @@ body {
       margin: 20px;
     }
 
-    @media screen and (min-width: 600) {
+ @media screen and (min-width: 600px) {
 
 body {
   margin: 0;
