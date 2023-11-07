@@ -1,4 +1,4 @@
-const kanyeQuoteDiv = document.getElementById("kanye-container");
+const kanyeQuoteDiv = document.getElementById("textContainer");
 
 fetch("https://api.kanye.rest")
   .then((response) => response.json())
