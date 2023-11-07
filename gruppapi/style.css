@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 
-.kanye-container {
+#kanye-container {
   background-image: url("/src/desktop-kanye.jpg");
   background-size: cover;
   background-position: center;
