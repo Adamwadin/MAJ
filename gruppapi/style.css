@@ -1,0 +1,28 @@
+.main-container {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+#textContainer {
+  width: fit-content;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: green;
+  background-image: u;
+}
+
+#quoteButton {
+  cursor: pointer;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 5px;
+  width: 80px;
+  align-self: flex-end;
+}
+
+#quoteButton:hover {
+  background-color: aliceblue;
+}
