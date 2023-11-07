@@ -10,6 +10,7 @@ body {
       height: 100vh;
       width: auto;
       background-repeat: no-repeat;
+      display: flex;
   }
   
   .main-container {
@@ -18,7 +19,7 @@ body {
   }
   
   #textContainer {
-      margin-top: 80%;
+    justi: flex-end;
       padding: 30px;
       border-radius: 20px;
       background-color: green;
@@ -26,12 +27,21 @@ body {
     }
     
     #quoteButton {
+        justify-self: flex-end;
       cursor: pointer;
       background-color: grey;
       border-radius: 5px;
       padding: 5px;
       width: 80px;
       margin: 20px;
+    }
+
+    #footer {
+        grid-column: 1/3;
+        align-self: flex-end;
+        text-align: center;
+        justify-content: center;
+        color: white;
     }
 
  @media screen and (min-width: 600px) {
@@ -48,6 +58,7 @@ body {
   width: auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   align-items: center;
 }
 .main-container {
@@ -76,6 +87,7 @@ body {
   padding: 5px;
   width: 80px;
   user-select: none;
+  margin-top: 20px;
 }
 
 #quoteButton:hover {
@@ -83,7 +95,6 @@ body {
 }
 
 #footer {
-  margin-top: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
